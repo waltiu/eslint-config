@@ -16,6 +16,6 @@
     "lerna": "^6.0.1"
   },
   "dependencies": {
-    "eslint-config-waltiu-base": "workspace:^0.0.2"
+    "eslint-config-waltiu-base": "workspace:^0.0.3"
   }
 }
