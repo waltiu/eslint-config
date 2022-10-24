@@ -1,6 +1,6 @@
-# @antfu/eslint-config
+# eslint-config-waltiu-react
 
-[![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/eslint-config-waltiu-react)
+[![npm](https://img.shields.io/npm/v/eslint-config-waltiu-react?color=a1b858&label=)](https://npmjs.com/package/eslint-config-waltiu-react)
 
 - Auto fix for formatting (aimed to be used standalone without Prettier)
 - Designed to work with TypeScript
