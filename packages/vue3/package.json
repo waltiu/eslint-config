@@ -4,7 +4,7 @@
   "description": "vue eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub": "pnpm publish"
   },
   "author": "",
   "license": "ISC",
