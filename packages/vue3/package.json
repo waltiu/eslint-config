@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/parser": "^5.40.1",
     "eslint-plugin-vue": "^9.6.0",
-    "vue-eslint-parser": "^9.1.0"
+    "vue-eslint-parser": "^9.1.0",
+    "eslint-config-waltiu-base":"workspace:*"
   },
   "gitHead": "6777082e512c64a31a9094b6ff3687af92d931a4"
 }
