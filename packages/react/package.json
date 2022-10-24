@@ -1,6 +1,6 @@
 {
   "name": "@waltiu/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
-    "@waltiu/eslint-config-base": "workspace:^0.0.1",
+    "@waltiu/eslint-config-base": "workspace:^0.0.2",
     "eslint-plugin-react": "^7.31.10"
   }
 }

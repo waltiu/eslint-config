@@ -1,6 +1,6 @@
 {
   "name": "@waltiu/eslint-config-vue3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/parser": "^5.40.1",
-    "@waltiu/eslint-config-base": "workspace:^0.0.1",
+    "@waltiu/eslint-config-base": "workspace:^0.0.2",
     "eslint-plugin-vue": "^9.6.0",
     "vue-eslint-parser": "^9.1.0"
   }
