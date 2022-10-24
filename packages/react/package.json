@@ -1,0 +1,17 @@
+{
+  "name": "@waltiu/eslint-config-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "@waltiu/eslint-config-base": "workspace:^0.0.1",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}

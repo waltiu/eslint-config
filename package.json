@@ -1,0 +1,21 @@
+{
+  "name": "xz-cli",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node preinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "lerna publish",
+    "pub:tag": "lerna publish from-git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

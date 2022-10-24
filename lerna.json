@@ -1,0 +1,10 @@
+{
+  "npmClient": "yarn",
+  "version": "independent",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "message": "chore: publish tag"
+    }
+  }
+}
