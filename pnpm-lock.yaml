@@ -4,7 +4,10 @@ importers:
 
   .:
     specifiers:
+      eslint-config-waltiu-base: workspace:^0.0.2
       lerna: ^6.0.1
+    dependencies:
+      eslint-config-waltiu-base: link:packages/base
     devDependencies:
       lerna: 6.0.1
 

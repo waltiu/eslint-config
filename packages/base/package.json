@@ -1,5 +1,5 @@
 {
-  "name": "@waltiu/eslint-config-base",
+  "name": "eslint-config-waltiu-base",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1"
-  }
+  },
+  "gitHead": "6777082e512c64a31a9094b6ff3687af92d931a4"
 }

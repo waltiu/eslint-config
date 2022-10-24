@@ -9,18 +9,11 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "@waltiu/eslint-config-base",
+    "eslint-config-waltiu-base"
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["react", "@typescript-eslint"],
   rules: {
-    "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": [
-      2,
-      {
-        varsIgnorePattern: "[rR]eact",
-      },
-    ],
     "space-in-parens": [0, "never"],
     "lines-around-comment": [
       "error",
@@ -39,29 +32,11 @@ module.exports = {
         capIsNew: false,
       },
     ],
-    "max-lines-per-function": [
-      "error",
-      {
-        max: 300,
-        skipComments: true,
-        skipBlankLines: true,
-      },
-    ],
     "no-console": "off",
     quotes: ["error", "double"],
     "operator-assignment": [0, "always"],
     "jsx-quotes": [2, "prefer-double"],
     "react/jsx-uses-react": "error",
-    "max-len": [
-      "error",
-      {
-        ignoreComments: true,
-        code: 200,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-      },
-    ],
     "dot-location": [2, "property"],
     "max-lines": [
       "error",

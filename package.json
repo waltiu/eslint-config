@@ -1,5 +1,5 @@
 {
-  "name": "xz-cli",
+  "name": "eslint-config-waltiu",
   "private": "true",
   "version": "0.0.1",
   "description": "",
@@ -17,5 +17,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "eslint-config-waltiu-base": "workspace:^0.0.2"
+  }
 }

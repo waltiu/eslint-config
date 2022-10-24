@@ -7,7 +7,7 @@ modules.export={
   "extends": [
     "plugin:vue/vue3-essential",
     "plugin:@typescript-eslint/recommended",
-    "@waltiu/eslint-config-base"
+    "eslint-config-waltiu-base"
   ],
   "parser": "vue-eslint-parser",
   "parserOptions": {
@@ -24,7 +24,6 @@ modules.export={
     "@typescript-eslint"
   ],
   "rules": {
-    "no-unused-vars": "error",
     "getter-return": "error",
     "for-direction": "error",
     "no-async-promise-executor": "error",

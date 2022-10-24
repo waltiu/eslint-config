@@ -1,5 +1,5 @@
 {
-  "name": "@waltiu/eslint-config-vue3",
+  "name": "eslint-config-waltiu-vue3",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/parser": "^5.40.1",
-    "@waltiu/eslint-config-base": "workspace:^0.0.2",
     "eslint-plugin-vue": "^9.6.0",
     "vue-eslint-parser": "^9.1.0"
-  }
+  },
+  "gitHead": "6777082e512c64a31a9094b6ff3687af92d931a4"
 }
