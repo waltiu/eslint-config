@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-waltiu-react",
   "version": "0.0.4",
-  "description": "",
+  "description": "react eslint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
