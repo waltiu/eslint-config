@@ -12,7 +12,7 @@ module.exports = {
     "eslint-config-waltiu-base"
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint","eslint-plugin-import-helpers"],
   rules: {
     "space-in-parens": [0, "never"],
     "lines-around-comment": [
@@ -109,6 +109,20 @@ module.exports = {
         allowSingleLine: true,
       },
     ],
+    // 引入排序 https://github.com/Tibfib/eslint-plugin-import-helpers
+    "import-helpers/order-imports": [
+      "error",
+      { 
+          "newlinesBetween": "never",
+          "groups": [
+              "module",
+              "/^@\/",
+              ["parent", "sibling","index"],
+              "/\\.css|less/"
+          ],
+          "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+  ]
   },
   env: {
     browser: true,

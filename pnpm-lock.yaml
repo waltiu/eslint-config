@@ -14,9 +14,11 @@ importers:
   packages/react:
     specifiers:
       eslint-config-waltiu-base: workspace:*
+      eslint-plugin-import-helpers: ^1.3.0
       eslint-plugin-react: ^7.31.10
     dependencies:
       eslint-config-waltiu-base: link:../base
+      eslint-plugin-import-helpers: 1.3.0
       eslint-plugin-react: 7.31.10
 
   packages/vue3:
@@ -2086,6 +2088,13 @@ packages:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
     dev: true
+
+  /eslint-plugin-import-helpers/1.3.0:
+    resolution: {integrity: sha512-rOWH24tNMeb47NjwiQ2SPb7GFy0rgXT6LRsED9B58LcdOaU/jr/8zlpGh3LvrjhWxn8fJuRN4w8bka8Fgs8w2w==}
+    engines: {node: '> 14'}
+    peerDependencies:
+      eslint: 5.x - 8.x
+    dev: false
 
   /eslint-plugin-react/7.31.10:
     resolution: {integrity: sha512-e4N/nc6AAlg4UKW/mXeYWd3R++qUano5/o+t+wnWxIf+bLsOaH3a4q74kX3nDjYym3VBN4HyO9nEn1GcAqgQOA==}
